@@ -1,12 +1,3 @@
--- ============================================
--- E-Commerce Relational Database (SQL)
--- Author: Kavitha Gollu
--- ============================================
-
--- ============================================
--- STEP 1: CREATE TABLES (with relationships & constraints)
--- ============================================
-
 CREATE TABLE categories (
     category_id INT PRIMARY KEY,
     category_name VARCHAR(50) NOT NULL
@@ -66,11 +57,6 @@ CREATE TABLE reviews (
     FOREIGN KEY (product_id) REFERENCES products(product_id),
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
 );
-
--- ============================================
--- STEP 2: INSERT SAMPLE DATA
--- ============================================
-
 -- Categories
 INSERT INTO categories (category_id, category_name) VALUES
 (1, 'Electronics'),
