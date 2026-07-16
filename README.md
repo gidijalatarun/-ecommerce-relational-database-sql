@@ -46,4 +46,4 @@ Includes primary keys, foreign keys, a `CHECK` constraint on ratings, and a `UNI
 4. Run each analysis query individually to view results.
 
 ## Author
-Kavitha Gollu
+Tarun Sai Gidijala
